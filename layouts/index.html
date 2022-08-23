@@ -1,0 +1,15 @@
+{{ partial "head.html" . }}
+<body>
+  {{ partial "nav.html" . }}
+  <main>
+  <h1>
+    {{ $.Title }}
+  </h1>
+    {{ range where .Site.RegularPages "Section" "posts" }}
+    <p style="margin-top: 0"><a href="{{.RelPermalink}}">{{.Title}}</a>: {{ .Description }}</p>
+    {{ end }}
+  {{.Content}}
+  </main>
+  {{ partial "footer.html" . }}
+</body>
+</html>

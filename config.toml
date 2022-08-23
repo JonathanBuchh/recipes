@@ -1,0 +1,5 @@
+baseURL = 'https://buchh.fun/recipes'
+canonifyURLs = true
+
+[markup.goldmark.renderer]
+  unsafe = true

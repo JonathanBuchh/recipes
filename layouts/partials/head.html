@@ -1,0 +1,14 @@
+<!DOCTYPE HTML>
+<html lang=en>
+<head>
+  <meta charset=utf-8>
+  <meta name=viewport content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark light">
+  {{ if .IsHome }}
+  <title>Jonathan Buchholz's Simple Recipes</title>
+  {{ else }}
+  <title>{{ $.Title }}</title>
+  {{ end }}
+  <meta name=description content="{{$.Description}}">
+  <link rel="stylesheet" href="/style.css">
+</head>
