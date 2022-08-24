@@ -1,3 +1,3 @@
-# Jonathan's Recipes
+# [Jonathan's Recipes](https://buchh.fun/recipes)
 
 My simple recipes
